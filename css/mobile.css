@@ -159,7 +159,7 @@
         margin-top: -12px;
     }
     .social {
-    margin-top: 15px;
+        margin-top: 15px;
     }
     .search_mobile{margin-top: 5px;}
     .menu_sticky .social{right: 1em;}
@@ -185,6 +185,9 @@
         height: 201px;
         max-width: 322px;
     }
+    .popular {
+        justify-content: initial;
+}
     - .list {		
  -        width:0;		
  -    }		
