@@ -147,7 +147,7 @@
         font-size:17px;
     }
 }
-@media only screen and (max-width: 840px){
+@media (max-width: 840px){
     .above{font-size: 30px;}
     #pics h2{ max-width: 50%;}
     #pics p {max-width: 45%;}
