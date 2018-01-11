@@ -147,7 +147,7 @@
         font-size:17px;
     }
 }
-@media (max-width: 840px){
+@media all and (max-width: 840px){
     .above{font-size: 30px;}
     #pics h2{ max-width: 50%;}
     #pics p {max-width: 45%;}
@@ -189,10 +189,10 @@
         justify-content: center;
     }
     .list {
-        width: initial;
+        width:1%;
     }
     .bigpic{
-         position: absolute;
+         
          top: 0;
     }
     .more_horizontal{
