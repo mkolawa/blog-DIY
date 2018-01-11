@@ -185,7 +185,7 @@
         max-width: 322px;
     }
     - .list {		
- -        width: initial;		
+ -        width:0;		
  -    }		
  -    .bigpic{		
  -         position: absolute;		
