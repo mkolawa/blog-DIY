@@ -184,15 +184,8 @@
         height: 201px;
         max-width: 322px;
     }
-    .list {
-        width: initial;
-    }
-    .bigpic{
-         position: absolute;
-         top:0;
-    }
     .more_horizontal{
-         margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
         left: 0px;
         right: 0px;
@@ -207,7 +200,6 @@
         cursor: auto;
         overflow: hidden;
     }
-
     .mobilemore{
         display: ;
         width: 54px;
@@ -308,7 +300,7 @@
           font-size: 26px;
           width: 340px;
     }
-       .menu_sticky .logotext p:nth-child(1) {
+     .menu_sticky .logotext p:nth-child(1) {
         font-size: 19px;
     }
     .menu_sticky .logotext p:nth-child(2){
