@@ -184,6 +184,14 @@
         height: 201px;
         max-width: 322px;
     }
+    - .list {		
+ -        width: initial;		
+ -    }		
+ -    .bigpic{		
+ -         position: absolute;		
+ -         top:0;
+            left:0;
+ -    }
     .more_horizontal{
         margin-left: auto;
         margin-right: auto;
