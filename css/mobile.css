@@ -1,0 +1,447 @@
+/****************************mobile*******************/
+@media only screen and (max-width: 1210px){
+    .social{
+         padding-left: 0;
+    }
+    .social li:last-child {
+        margin:0 50px 0 80px;
+    }
+    ul.aboutme {
+        margin: 8px 0 0 5px;
+    }
+    ul.aboutme li {
+        margin-right: 5px;
+    }
+}
+@media only screen and (max-width: 1180px){
+    .all{
+        text-align: center;
+    }
+    .recent{
+        padding: 0;
+        justify-content: center;
+        width: 935px;
+    }
+    .row {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .all{
+        text-align: inherit;
+    }
+    .recent{
+        padding: 0;
+        width: 888px;
+    }
+    .row {
+        width: 50%;
+    }
+     .stripe.active{
+        margin-left:5px;
+        background:rgba(234, 190, 228, 0.92);
+    }
+}
+@media only screen and (max-width: 1050px){
+    #pics h2{max-width: 70%; }
+    #pics p{ max-width: 60%;}
+    .above{ font-size:40px;}
+    .all{text-align: center;}
+    .all .header{
+        float: initial;
+        letter-spacing: 10px;
+        margin-top: 40px;
+    }
+    .header span{display: inline-block; }
+    .header h4{ margin: 0 auto;}
+    .header span:nth-child(1), .header span:nth-child(10) {
+        margin: 0 0 0 15px;
+    }
+    .more{
+        display: block;
+        width: 471px;
+        height: 28px;
+        float: none;
+        position: static;
+        margin:20px auto;
+    }
+    .more span{
+        display: inline-block;
+        margin: 0 0 0 15px;
+    }
+    .recent{margin: 0; }
+    .popular_box{min-height: 595px;}
+    .stripe h3 {font: 300 19px 'Josefin Sans', sans-serif; }
+    .bigpic img {max-width: 444px; }
+    .note p {font-size: 19px; }
+    .more_horizontal {
+        transform: rotate(0deg);
+        left: 132px;
+    }
+    .more_horizontal::after {
+        top: 28px;
+        border-top: 5px solid transparent;
+        border-bottom: 26px solid transparent;
+        border-right: 32px solid #91b7c1;
+        -ms-transform: skewY(-42deg);
+        -webkit-transform: skewY(-42deg);
+        transform: skewY(-48deg);
+    }
+}@media only screen and (max-width: 1020px){
+    #logo {
+        height: 258px;
+        max-width: 412px;
+    }
+    .logotext p:first-child {
+        font: 400 55px 'Clicker Script', cursive;
+    }
+    .logotext p {
+        font: 400 21px 'Kalam', cursive;
+    }
+    .logotext p:last-child {
+        font: 400 26px 'Josefin Sans', sans-serif;
+    }   
+    .more_horizontal p{
+        font-size: 23px;
+    }
+    .note p{
+        font-size: 18px;
+    }
+    .more_horizontal::after {
+        top: 21px;
+    }
+    .more_horizontal:before {
+       top: 13px; 
+    }
+    .stripe.active{
+        width: initial;
+    }
+}
+
+@media only screen and (max-width: 930px){
+    .row {
+    width: 43%;
+    }
+    .item{
+        width: 350px;
+    }
+    .item .button {
+    left: 35%;
+    }
+    .bigpic img {
+         max-width: 409px;
+    }
+    .note .button {
+        margin: 10px 50px;    
+    }
+}
+@media only screen and (max-width: 870px){
+    ol{
+        font-size:22px;
+    }
+    ol > li{
+        width:120px;
+        padding: 0 2px;
+    }
+    ol > li > ul{
+        font-size:17px;
+    }
+}
+@media only screen and (max-width: 840px){
+    .above{font-size: 30px;}
+    #pics h2{ max-width: 50%;}
+    #pics p {max-width: 45%;}
+    .menu_sticky .logotext{
+        position: initial;
+        width: 225px;
+        display: block;
+        margin-top: -12px;
+    }
+    .social {
+    margin-top: 15px;
+    }
+    .search_mobile{margin-top: 5px;}
+    .menu_sticky .social{right: 1em;}
+    .menu_sticky .menumobile{left: 0;}
+    .linetop img{
+        width: 25px;
+        height: 25px;
+    }
+    .logotext p{
+        font-size: 15px;
+        margin-top: -4px;
+    }
+    .logotext p:first-child {
+    font: 400 30px 'Clicker Script', cursive;
+    }
+    .item {width: 100%;}
+    .row{ width: 100%;}
+    .recent{
+        display: inline-block;
+        width: 70%;
+    }
+    #logo{
+        height: 201px;
+        max-width: 322px;
+    }
+    .popular {
+        display: flex;
+        justify-content: center;
+    }
+    .list {
+        width:0;
+    }
+    .bigpic{
+         
+         top: 0;
+    }
+    .more_horizontal.hide{
+        display: none;
+    }
+    .more_horizontal{
+        margin-left: auto;
+        margin-right: auto;
+        left: 0px;
+        right: 0px;
+    }
+    .note{ top: 21%; cursor: initial;}
+    .note p {font-size: 15px;}
+    .wtext{display: none;}
+    .wtext.visible{display: block;}
+    .stripe{
+        margin-left: -84px;
+        width: 570px;
+        height: 64px;  
+        cursor: auto;
+        overflow: hidden;
+    }
+    .stripe.active{ width: 570px;margin-left: -84px;}
+    .mobilemore{
+        display: ;
+        width: 54px;
+        height: 62px;
+        background-color: white;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        padding: 0;    
+        font-size: 18px; 
+        background:#fff url(../img/icons/next1.png)no-repeat center;
+    }
+    .mobilemore.showmore{ display: block; }
+    .text {font: 300 18px 'Kalam', cursive; }
+    ol.activ {height: 285px; overflow: scroll;}
+     ol.activ li:first-child {margin-top: 30px;}
+}
+@media only screen and (min-width:840px){
+    .search_mobile form{
+        margin-top: 65px;
+    }
+}
+@media only screen and (max-width:750px){
+    ul.aboutme li{
+        font-size: 19px;
+    }
+    .social li:last-child{
+        margin: 0 30px 0 70px;
+    }
+    .popular_box .header h4{
+        width: 65%
+    }
+    .scrollup{
+        bottom:150px;
+    }
+}
+@media only screen and (max-width: 655px){
+    .slider-fade img{
+        height: 250px;
+    }
+    .above{
+        top: 20px;
+    }
+    #pics h2{
+         max-width: 80%;
+    }
+    #pics p{
+        display: none;
+    }
+    .input{
+        width: 91%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+    }
+    .menu_sticky {
+        display: block!important;
+    }
+    ol, .linetop, #logo{display: none;}
+    ol > li:nth-child(6),ol > li:nth-child(7){
+    display: block;
+}
+}
+@media only screen and (max-width: 600px){
+    .header h4 {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .item .button {
+        left: 32%;
+    }    
+     .more {
+        font-size: 28px;
+        width: 421px;
+    }
+    .play{left: 53%;}
+    .pause{left:35%;}
+    .stripe{margin-left: -30px;height: initial;width: initial;}
+    .stripe.active{width: initial;margin-left: -30px;}
+    .stripe h3{
+        margin-left: 0;
+        font-size: 17px;
+    }
+    .popular_box {
+    min-height: 490px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .above{
+        font-size: 25px;
+        max-width: 60%;
+     }
+    .stripe.active,.stripe{margin-left: -15px;}
+    .stripe{min-width: 370px;}
+}
+@media only screen and (max-width: 500px){
+    .mmobile span:before, .mmobile span:after, .mmobile span{
+        width: 45px;
+    }
+     .more {
+          font-size: 26px;
+          width: 340px;
+    }
+       .menu_sticky .logotext p:nth-child(1) {
+        font-size: 19px;
+    }
+    .menu_sticky .logotext p:nth-child(2){
+        font-size: 10px;
+    }
+    .menu_sticky .logotext p:nth-child(3) {
+        font-size: 11px;
+    }
+    .logotext p:first-child{
+         letter-spacing: 4px;
+    }
+    .popular_box .header h4{
+        width: 90%
+    }
+    #newsletter form input {
+        width: 93%;
+    }
+    #newsletter p {
+    font: 300 23px 'Kalam', cursive;
+    }
+}
+@media only screen and (max-width: 450px){
+    .menu_sticky .logotext{
+        width: 172px;
+    }
+    ol.activ {
+        width: 135px;
+    }
+    .header h4 {
+         font-size: 24px;
+        letter-spacing: 2px;
+    }
+     .topic{
+        top: 20px;
+    }
+     .topic > h3 {
+        font-size: 14px;
+    }
+    .item .button {
+        left: 28%;
+    }
+    #prev, #next {
+        letter-spacing: inherit;
+    }
+    .welcome{
+        height: 300px;
+    }
+    .text {
+        font: 300 12px 'Kalam', cursive;
+    }
+    .bigpic img{
+        max-width: 346px;  
+    }
+    .stripe h3{
+        letter-spacing: 0px;
+    }
+    .note .button {
+    margin: 10px 30px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .more {
+        font-size: 23px;
+        width: 287px;
+        height: 22px;
+    }
+    #pics h2 {
+        max-width: 59%;
+        font-size: 0.8em;
+    }
+    .stripe { min-width: 337px;}
+    .stripe.active,.stripe{margin-left:3px;}
+}
+@media only screen and (max-width: 370px){
+    .topic > h3 {
+         line-height: 1;
+        } 
+    .item .button {
+        left: 20%;
+    }
+    .more {
+        font-size: 19px;
+        width: 229px;
+        height: 17px;
+    }
+     .input{
+        padding-left: 4px;
+        padding-right: 1px;
+        font-size: 14px;
+    }
+    .popular_box {
+    min-height: 430px;
+    }
+    .popular_box .header h4{
+        width: 90%;
+        letter-spacing: 5px;
+    }
+    #list {
+        margin-left: 0%;
+    }
+    .bigpic img{
+        max-width: 297px;
+    }
+    .stripe h3{letter-spacing: 0px; width: 287px; margin: 5px 0px;}
+    .stripe, .stripe.active{
+        margin-left: 1px;
+        text-align: initial;
+        min-width:292px;
+    }
+    .note .button {
+        margin: 5px 2px;
+}
+    .note p {
+        font-size: 12px;
+}
+    .more_horizontal{
+        width: 293px;
+        bottom:25px;
+    }
+    #newsletter h3{
+        font-size: 32px;
+    }
+    #newsletter form input{
+        background: #fff url(../img/icons/origami-bird.png)no-repeat center right 2px;
+    }
+}
