@@ -229,6 +229,10 @@
     }
 }
 @media only screen and (max-width:750px){
+      .bigpic{		
+ -         position: absolute;		
+ -         top:0;
+ -    }
     ul.aboutme li{
         font-size: 19px;
     }
