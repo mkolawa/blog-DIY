@@ -209,7 +209,6 @@
         overflow: hidden;
     }
     .mobilemore{
-        display: ;
         width: 54px;
         height: 62px;
         background-color: white;
@@ -327,7 +326,7 @@
         width: 93%;
     }
     #newsletter p {
-    font: 300 23px 'Kalam', cursive;
+        font: 300 23px 'Kalam', cursive;
     }
 }
 @media only screen and (max-width: 450px){
@@ -366,7 +365,7 @@
         letter-spacing: 0px;
     }
     .note .button {
-    margin: 10px 30px;
+        margin: 10px 30px;
     }
 }
 @media only screen and (max-width: 400px){
@@ -380,7 +379,7 @@
         font-size: 0.8em;
     }
     .stripe {
-    min-width: 337px;
+        min-width: 337px;
     }
 }
 @media only screen and (max-width: 370px){
@@ -405,7 +404,7 @@
         letter-spacing: 5px;
     }
     #list {
-        margin-left: 0%;
+        margin-left: 0;
     }
     .bigpic img{
         max-width: 297px;
