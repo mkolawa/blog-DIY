@@ -745,9 +745,6 @@ ol > li:hover  ul{
 .more_horizontal p:hover{
     background:#82d7d4;
 }
-.bigpic{
-    position: relative;
-}
 .bigpic img{
     max-width: 500px;
     height: auto;  
