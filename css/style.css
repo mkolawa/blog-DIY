@@ -655,7 +655,6 @@ ol > li:hover  ul{
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 .list{
     width: 50%;
