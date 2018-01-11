@@ -296,7 +296,6 @@
     }
 }
 @media only screen and (max-width: 550px){
-    .bigpic {display:none;}
     .above{
         font-size: 25px;
         max-width: 60%;
