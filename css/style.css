@@ -891,7 +891,6 @@ ul.months li  img{
     height: 120px; 
 }
 ul.months a{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
