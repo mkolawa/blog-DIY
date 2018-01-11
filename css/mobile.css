@@ -71,14 +71,14 @@
     }
     .recent{margin: 0; }
     .popular_box{min-height: 595px;}
-    .stripe h3 {font: 300 19px 'Josefin Sans', sans-serif; }
-    .list img {max-width: 444px; }
-    .note p {font-size: 19px; }
+    .stripe h3 {font: 300 19px 'Josefin Sans', sans-serif;}
+    .bigpic img {max-width: 444px;}
+    .note p {font-size: 19px;}
     .more_horizontal {
         transform: rotate(0deg);
         left: 132px;
     }
-    .more_horizontal::after {
+    .more_horizontal::after{
         top: 28px;
         border-top: 5px solid transparent;
         border-bottom: 26px solid transparent;
@@ -117,18 +117,17 @@
         width: initial;
     }
 }
-
 @media only screen and (max-width: 930px){
     .row {
-    width: 43%;
+        width: 43%;
     }
     .item{
         width: 350px;
     }
     .item .button {
-    left: 35%;
+        left: 35%;
     }
-    .list img {
+    .bigpic img {
          max-width: 409px;
     }
     .note .button {
@@ -158,11 +157,11 @@
         margin-top: -12px;
     }
     .social {
-    margin-top: 15px;
+        margin-top: 15px;
     }
     .search_mobile{margin-top: 5px;}
     .menu_sticky .social{right: 1em;}
-     .menu_sticky .menumobile{left: 0;}
+    .menu_sticky .menumobile{left: 0;}
     .linetop img{
         width: 25px;
         height: 25px;
@@ -172,11 +171,11 @@
         margin-top: -4px;
     }
     .logotext p:first-child {
-    font: 400 30px 'Clicker Script', cursive;
+        font: 400 30px 'Clicker Script', cursive;
     }
     .item {width: 100%;}
     .row{ width: 100%;}
-     .recent{
+    .recent{
         display: inline-block;
         width: 70%;
     }
