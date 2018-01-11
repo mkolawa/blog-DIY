@@ -184,16 +184,12 @@
         height: 201px;
         max-width: 322px;
     }
-    .popular {
-        display: flex;
-        justify-content: center;
-    }
     .list {
         width: initial;
     }
     .bigpic{
-         position: relative;
-         
+         position: absolute;
+         top:0;
     }
     .more_horizontal{
          margin-left: auto;
