@@ -192,8 +192,8 @@
         width: initial;
     }
     .bigpic{
-         position: absolute;
-         top: 0;
+         position: relative;
+         
     }
     .more_horizontal{
          margin-left: auto;
