@@ -160,7 +160,7 @@
     .social {
     margin-top:10px;
     }
-    .welcome .button { background: #ffffff9c;}
+    .button { background: #ffffff9c;}
     .search_mobile{margin-top: 5px;}
     .menu_sticky .social{right: 1em;}
     .menu_sticky .menumobile{left: 0;}
@@ -304,7 +304,7 @@
         font-size: 25px;
         max-width: 60%;
      }
-    .stripe.active,.stripe{margin-left: -15px;}
+    .stripe.active,.stripe{margin-left: 15px;}
     .stripe{min-width: 370px;}
 }
 @media only screen and (max-width: 500px){
@@ -361,7 +361,7 @@
         letter-spacing: inherit;
     }
     .welcome{
-        height: 300px;
+        height: 315px;
     }
     .text {
         font: 300 12px 'Kalam', cursive;
@@ -372,6 +372,7 @@
     .stripe h3{
         letter-spacing: 0px;
     }
+    .stripe.active,.stripe{margin-left: -15px;}
     .note .button {
     margin: 10px 30px;
     }
