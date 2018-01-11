@@ -307,7 +307,7 @@ ol > li:hover  ul{
     opacity: 0.8;
     position: absolute;
     right: 130px;
-    top:3px;
+    top:-3px;
 }
 .search_mobile form{
     display: block;
