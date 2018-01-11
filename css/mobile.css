@@ -87,7 +87,8 @@
         -webkit-transform: skewY(-42deg);
         transform: skewY(-48deg);
     }
-}@media only screen and (max-width: 1020px){
+}
+@media only screen and (max-width: 1020px){
     #logo {
         height: 258px;
         max-width: 412px;
@@ -162,7 +163,7 @@
     }
     .search_mobile{margin-top: 5px;}
     .menu_sticky .social{right: 1em;}
-     .menu_sticky .menumobile{left: 0;}
+    .menu_sticky .menumobile{left: 0;}
     .linetop img{
         width: 25px;
         height: 25px;
@@ -190,7 +191,6 @@
  -    .bigpic{		
  -         position: absolute;		
  -         top:0;
-           left:0;
  -    }
     .more_horizontal{
         margin-left: auto;
