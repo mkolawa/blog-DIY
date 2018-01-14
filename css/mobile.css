@@ -160,6 +160,9 @@
     .social {
         margin-top:10px;
     }
+     #prev-arrow, #next-arrow{
+        display: none;
+    }
     .welcome .button { 
         background: #efefef;
     }
