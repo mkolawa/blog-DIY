@@ -158,9 +158,11 @@
         margin-top: -12px;
     }
     .social {
-    margin-top:10px;
+        margin-top:10px;
     }
-    .text .button { background: #ffffff9c;}
+    .welcome .button { 
+        background: #efefef;
+    }
     .search_mobile{margin-top: 5px;}
     .menu_sticky .social{right: 1em;}
     .menu_sticky .menumobile{left: 0;}
@@ -214,7 +216,6 @@
     }
     .stripe.active{ width: 570px;margin-left: -84px;}
     .mobilemore{
-        display: ;
         width: 54px;
         height: 62px;
         background-color: white;
@@ -231,7 +232,7 @@
 }
 @media only screen and (min-width:840px){
     .search_mobile form{
-        margin-top: 65px;
+     margin-top: 65px;
     }
 }
 @media only screen and (max-width:750px){
