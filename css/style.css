@@ -690,7 +690,6 @@ ol > li:hover  ul{
 }
 .stripe h3{
     width: 100%;
-    display: inline-block;
     margin: 15px;
     color: #000;
     letter-spacing: 1px;
