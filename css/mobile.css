@@ -163,9 +163,8 @@
      #prev-arrow, #next-arrow{
         display: none;
     }
-    .welcome .button { 
-        background: #efefef;
-    }
+    .welcome .button { background: #efefef;}
+    .wtext .button{background: rgba(255, 255, 255, 0.5);}
     .search_mobile{margin-top: 5px;}
     .menu_sticky .social{right: 1em;}
     .menu_sticky .menumobile{left: 0;}
